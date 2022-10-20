@@ -1,0 +1,30 @@
+.categoria {
+    height: 100%;
+    position: relative;
+}
+
+.categoria__titulo {
+    color: #e5e5e5e5;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.categoria__container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.item img {
+    width: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+    transition-duration: .1s;
+}
+
+.item img:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}

@@ -1,0 +1,49 @@
+.rodape {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+.rodape__social {
+    color: white;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.rodape__social i {
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.rodape__atalhos {
+    display: flex;
+    justify-content:space-between;
+}
+
+.atalhos__lista {
+    color: #e5e5e5e5;
+    line-height: 2.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.atalhos__item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.rodape__termos button {
+    background-color: black;
+    border: 1px solid #e5e5e5e5;
+    color: #e5e5e5e5;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.rodape__copy {
+    color: #e5e5e5e5;
+    font-size: .8rem;
+    padding: 2rem 0;
+}
